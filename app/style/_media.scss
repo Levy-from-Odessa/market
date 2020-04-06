@@ -1,0 +1,184 @@
+@media only screen and (max-width: 1200px) {
+
+	#prev-btn, #next-btn {
+		display: none;
+	}
+
+	.shop{
+		&__title{
+			font-size: 16px;
+		}
+		&__subtitle{
+			font-size: 10px;
+		}
+	}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+	.slider__title {
+		font-size: 30px;
+	}
+
+	.slider__subtitle {
+		font-size: 20px;
+		margin-bottom: 0px;
+
+	}
+
+	.menu {
+		display: none;
+	}
+	.burger{
+		display: block;
+	}
+	
+	.slider {
+		
+			
+			display: flex;
+			
+			width: 800px;
+			margin: auto;
+		&__photo {
+			width: 450px;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+	
+
+	.shop {
+		&__woman {
+			background: url(../img/womanShop.png) no-repeat right bottom, #F4F4F4;
+		}
+
+		&__man-content {
+			margin: 0;
+		}
+	}
+
+	.feedback{
+		button{
+			width: auto;
+		}
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.model {
+		padding: 0;
+	}
+	.between input {
+		margin: 0;
+	}
+	#block-for-slider {
+		
+		margin-top:20px;
+	}
+	.header__item {
+		padding: 30px 0;
+	}
+
+	.slider {
+		width: 600px;
+		
+		&__photo {
+			width: 300px;
+
+			img {
+				width: 100%;
+			}
+		}
+
+
+
+	}
+
+	.between {
+		padding: 30px;
+
+		&__title {
+			font-size: 17px;
+		}
+
+		&__subtitle {
+			font-size: 11px;
+		}
+
+		.feedback {
+			display: block;
+
+		}
+	}
+
+	
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+	.btn {
+
+		font-size: 14px;
+	
+		line-height: 12px;
+	}
+	#nav-btns {
+		top: 0;
+	}
+	.slide-nav-btn {
+		
+		width: 10px;
+		height: 10px;}
+
+	.slider {
+		width: 300px;
+	}
+	.header__item {
+		padding: 10px 0;
+	}
+
+	.slider__title {
+		font-size: 20px;
+		margin: 0;
+		line-height: 30px;
+	}
+
+	.slider__subtitle {
+		font-size: 10px;
+		margin: 0;
+	}
+
+	.btn {
+		width: 130px;
+	}
+
+	.slider {
+		&__photo {
+			width: 200px;
+
+		}
+
+		&__photo-price {
+			top: -30px;
+
+			&__subtitle {
+				font-size: 17px;
+			}
+
+			&__title {
+				font-size: 24px;
+			}
+		}
+	}
+
+
+}
